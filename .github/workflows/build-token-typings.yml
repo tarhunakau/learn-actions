@@ -1,7 +1,7 @@
 name: Build Token Typings
 on:
   push:
-    branches: [main]
+    paths: [design-tokens.tokens.json]
 
 jobs:
   build:
@@ -17,6 +17,10 @@ jobs:
         run: npm ci
       - name: Create tokens file
         run: |
-          touch tokens.ts
           npm run build-tokens
+          git config --global user.email "no-reply@github.com"
+          git config --global user.name "GitHub Actions"
+          git add tokens.ts
+          git commit -m "auto update tokens"
+          git push origin main
       - run: echo "123" > secret_file
