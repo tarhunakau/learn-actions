@@ -11,6 +11,8 @@ jobs:
         with:
           node-version: "20.x"
       - run: npm ci
+        name: Install modules
       - run: touch tokens.ts
-      - run: mkdir mydirname
+        name: Create tokens file
       - run: npm run build-tokens
+        name: Fill tokens from JSON
