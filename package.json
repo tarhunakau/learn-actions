@@ -1,0 +1,22 @@
+{
+  "name": "learn-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "transformToModule.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarhunakau/learn-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarhunakau/learn-actions/issues"
+  },
+  "homepage": "https://github.com/tarhunakau/learn-actions#readme",
+  "devDependencies": {
+    "json-ts": "^1.6.4"
+  }
+}
