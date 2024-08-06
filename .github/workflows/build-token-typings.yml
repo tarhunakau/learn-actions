@@ -1,7 +1,8 @@
 name: Build Token Typings
 on:
   push:
-    paths: [design-tokens.tokens.json]
+    paths:
+      - "design-tokens.tokens.json"
 
 jobs:
   build:
