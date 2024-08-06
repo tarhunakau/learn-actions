@@ -13,14 +13,14 @@
   },
   "font": {
     "header 1": {
-      "fontSize": 28,
+      "fontSize": 36,
       "textDecoration": "none",
       "fontFamily": "Work Sans",
       "fontWeight": 700,
       "fontStyle": "normal",
       "fontStretch": "normal",
-      "letterSpacing": -0.56,
-      "lineHeight": 33.6,
+      "letterSpacing": -0.72,
+      "lineHeight": 43.2,
       "paragraphIndent": 0,
       "paragraphSpacing": 0,
       "textCase": "none"
@@ -52,16 +52,19 @@
       "textCase": "none"
     }
   },
+  "collection 1": {
+    "headerbig": 36
+  },
   "typography": {
     "header 1": {
-      "fontSize": 28,
+      "fontSize": 36,
       "textDecoration": "none",
       "fontFamily": "Work Sans",
       "fontWeight": 700,
       "fontStyle": "normal",
       "fontStretch": "normal",
-      "letterSpacing": -0.56,
-      "lineHeight": 33.6,
+      "letterSpacing": -0.72,
+      "lineHeight": 43.2,
       "paragraphIndent": 0,
       "paragraphSpacing": 0,
       "textCase": "none"
