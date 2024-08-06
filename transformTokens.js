@@ -86,11 +86,22 @@ const StyleDictionaryExtended = StyleDictionary.extend({
     },
     "json-flat": {
       transformGroup: "js",
-      buildPath: "build/json/",
+      buildPath: "build/json-flat/",
       files: [
         {
           destination: "styles.json",
           format: "json/flat",
+          filter: "validToken",
+        },
+      ],
+    },
+    "json-tested": {
+      transformGroup: "js",
+      buildPath: "build/json-nested/",
+      files: [
+        {
+          destination: "styles.json",
+          format: "json/nested",
           filter: "validToken",
         },
       ],

@@ -4,7 +4,7 @@
   "description": "",
   "main": "transformToModule.js",
   "scripts": {
-    "build-token-types": "json-ts tokens/design-tokens.tokens.json > tokens/types.ts",
+    "build-token-types": "json-ts build/json-nested/styles.json > build/json-nested/types.ts",
     "start": "npm run transform-tokens",
     "transform-tokens": "node ./transformTokens.js"
   },
