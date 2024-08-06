@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - "design-tokens.tokens.json"
+    branches:
+      - "main"
 
 jobs:
   build:
