@@ -4,7 +4,7 @@
   "description": "",
   "main": "transformToModule.js",
   "scripts": {
-    "build-token-types": "json-ts design-tokens.tokens.json > types.ts",
+    "build-token-types": "json-ts tokens/design-tokens.tokens.json > tokens/types.ts",
     "start": "npm run transform-tokens",
     "transform-tokens": "node ./transformTokens.js",
     "test": "jest tests --coverage=false",
