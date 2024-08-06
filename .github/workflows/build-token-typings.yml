@@ -18,14 +18,14 @@ jobs:
           node-version: "20.x"
       - name: Install modules
         run: npm ci
-      - name: Create tokens file
+      - name: Create token types file
         run: |
-          npm run build-tokens
+          npm run build-token-types
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
-          touch tokens.ts
-          git add tokens.ts
-          git commit -m "Auto update tokens"
+          touch types.ts
+          git add types.ts
+          git commit -m "Auto update token types"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git push origin main
         env:
