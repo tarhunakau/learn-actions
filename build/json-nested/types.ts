@@ -1,6 +1,9 @@
 interface IRootObject {
     color: IColor;
     font: IFont;
+    'collection 1': {
+        headerbig: number;
+    };
     typography: ITypography;
 }
 interface IColor {
