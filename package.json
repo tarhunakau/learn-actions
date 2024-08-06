@@ -6,10 +6,7 @@
   "scripts": {
     "build-token-types": "json-ts tokens/design-tokens.tokens.json > tokens/types.ts",
     "start": "npm run transform-tokens",
-    "transform-tokens": "node ./transformTokens.js",
-    "test": "jest tests --coverage=false",
-    "transform:android": "node ./examples/android/build.js",
-    "transform:ios": "node ./examples/ios/build.js"
+    "transform-tokens": "node ./transformTokens.js"
   },
   "repository": {
     "type": "git",
