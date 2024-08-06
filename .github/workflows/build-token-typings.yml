@@ -12,4 +12,5 @@ jobs:
           node-version: "20.x"
       - run: npm ci
       - run: touch tokens.ts
+      - run: mkdir mydirname
       - run: npm run build-tokens
