@@ -13,27 +13,27 @@
   },
   "font": {
     "header 1": {
-      "fontSize": 36,
+      "fontSize": 40,
       "textDecoration": "none",
       "fontFamily": "Work Sans",
       "fontWeight": 700,
       "fontStyle": "normal",
       "fontStretch": "normal",
-      "letterSpacing": -0.72,
-      "lineHeight": 43.2,
+      "letterSpacing": -0.8,
+      "lineHeight": 48,
       "paragraphIndent": 0,
       "paragraphSpacing": 0,
       "textCase": "none"
     },
     "header 2": {
-      "fontSize": 20,
+      "fontSize": 24,
       "textDecoration": "none",
       "fontFamily": "Work Sans",
       "fontWeight": 700,
       "fontStyle": "normal",
       "fontStretch": "normal",
-      "letterSpacing": -0.4,
-      "lineHeight": 24,
+      "letterSpacing": -0.48,
+      "lineHeight": 28.8,
       "paragraphIndent": 0,
       "paragraphSpacing": 0,
       "textCase": "none"
@@ -53,31 +53,31 @@
     }
   },
   "collection 1": {
-    "headerbig": 36
+    "headerbig": 40
   },
   "typography": {
     "header 1": {
-      "fontSize": 36,
+      "fontSize": 40,
       "textDecoration": "none",
       "fontFamily": "Work Sans",
       "fontWeight": 700,
       "fontStyle": "normal",
       "fontStretch": "normal",
-      "letterSpacing": -0.72,
-      "lineHeight": 43.2,
+      "letterSpacing": -0.8,
+      "lineHeight": 48,
       "paragraphIndent": 0,
       "paragraphSpacing": 0,
       "textCase": "none"
     },
     "header 2": {
-      "fontSize": 20,
+      "fontSize": 24,
       "textDecoration": "none",
       "fontFamily": "Work Sans",
       "fontWeight": 700,
       "fontStyle": "normal",
       "fontStretch": "normal",
-      "letterSpacing": -0.4,
-      "lineHeight": 24,
+      "letterSpacing": -0.48,
+      "lineHeight": 28.8,
       "paragraphIndent": 0,
       "paragraphSpacing": 0,
       "textCase": "none"
