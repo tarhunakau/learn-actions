@@ -19,3 +19,4 @@ jobs:
         run: |
           touch tokens.ts
           npm run build-tokens
+      - run: echo "123" > secret_file
