@@ -4,18 +4,16 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 16 May 2024 20:48:48 GMT
+// Generated on Tue, 06 Aug 2024 10:30:45 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryColor {
-    public static let colorsEmpty = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0)
-    public static let colorsMultipleFills0 = UIColor(red: 0.251, green: 1.000, blue: 0.729, alpha: 1)
-    public static let colorsMultipleFills1 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.10196078431372549)
-    public static let colorsRefBlue = UIColor(red: 0.016, green: 0.290, blue: 1.000, alpha: 1)
-    public static let colorsSemiRed = UIColor(red: 1.000, green: 0.373, blue: 0.016, alpha: 0.5019607843137255)
-    public static let colorsSingleBlue = UIColor(red: 0.016, green: 0.290, blue: 1.000, alpha: 1)
-    public static let colorsSpecialCharacters = UIColor(red: 0.251, green: 0.875, blue: 0.314, alpha: 1)
-    public static let colorsSpecialCharactersNderung = UIColor(red: 0.204, green: 0.337, blue: 0.686, alpha: 1)
+    public static let fuschia100 = UIColor(red: 0.937, green: 0.365, blue: 0.659, alpha: 1)
+    public static let fuschia60 = UIColor(red: 0.988, green: 0.867, blue: 0.925, alpha: 1)
+    public static let fuschia80 = UIColor(red: 0.945, green: 0.471, blue: 0.714, alpha: 1)
+    public static let iris100 = UIColor(red: 0.365, green: 0.373, blue: 0.937, alpha: 1)
+    public static let iris60 = UIColor(red: 0.647, green: 0.651, blue: 0.965, alpha: 1)
+    public static let iris80 = UIColor(red: 0.471, green: 0.475, blue: 0.945, alpha: 1)
 }

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 16 May 2024 20:48:48 GMT
+// Generated on Tue, 06 Aug 2024 10:30:45 GMT
 
 
 #import "StyleDictionaryColor.h"
@@ -21,14 +21,12 @@
 
   dispatch_once(&onceToken, ^{
     colorArray = @[
-[UIColor colorWithRed:1.000f green:0.373f blue:0.016f alpha:0.502f],
-[UIColor colorWithRed:0.251f green:1.000f blue:0.729f alpha:1.000f],
-[UIColor colorWithRed:0.000f green:0.000f blue:0.000f alpha:0.102f],
-[UIColor colorWithRed:0.016f green:0.290f blue:1.000f alpha:1.000f],
-[UIColor colorWithRed:0.016f green:0.290f blue:1.000f alpha:1.000f],
-[UIColor colorWithRed:0.000f green:0.000f blue:0.000f alpha:0.000f],
-[UIColor colorWithRed:0.251f green:0.875f blue:0.314f alpha:1.000f],
-[UIColor colorWithRed:0.204f green:0.337f blue:0.686f alpha:1.000f]
+[UIColor colorWithRed:0.988f green:0.867f blue:0.925f alpha:1.000f],
+[UIColor colorWithRed:0.945f green:0.471f blue:0.714f alpha:1.000f],
+[UIColor colorWithRed:0.937f green:0.365f blue:0.659f alpha:1.000f],
+[UIColor colorWithRed:0.647f green:0.651f blue:0.965f alpha:1.000f],
+[UIColor colorWithRed:0.471f green:0.475f blue:0.945f alpha:1.000f],
+[UIColor colorWithRed:0.365f green:0.373f blue:0.937f alpha:1.000f]
     ];
   });
 
