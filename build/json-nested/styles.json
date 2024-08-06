@@ -1,99 +1,478 @@
 {
   "color": {
-    "fuschia": {
-      "60": "#fcddec",
-      "80": "#f178b6",
-      "100": "#ef5da8"
+    "grey": {
+      "4": "#f7f7f7",
+      "5": "#f5f5f5",
+      "10": "#ebebeb",
+      "15": "#e1e1e1",
+      "24": "#cfcfcf",
+      "40": "#aeaeae",
+      "50": "#9a9a9a",
+      "80": "#5d5d5d",
+      "90": "#4a4a4a",
+      "light grey": "#767676",
+      "2 5": "#fafafa"
     },
-    "iris": {
-      "60": "#a5a6f6",
-      "80": "#7879f1",
-      "100": "#5d5fef"
+    "red": {
+      "5": "#fdf6f8",
+      "10": "#fcecf1",
+      "20": "#f9dae3",
+      "60": "#ec8faa",
+      "pressed": "#801434",
+      "hover": "#c2315c",
+      "default": "#df4472"
+    },
+    "green": {
+      "5": "#f4fbfb",
+      "10": "#eaf7f6",
+      "20": "#d4efee",
+      "60": "#7fd0cb",
+      "pressed": "#086268",
+      "hover": "#098c84",
+      "default": "#2ab0a8"
+    },
+    "orange": {
+      "5": "#fff9f5",
+      "10": "#fef2ec",
+      "20": "#fee6d8",
+      "60": "#fbb38a",
+      "pressed": "#b14320",
+      "hover": "#da5922",
+      "default": "#f9803c"
+    },
+    "blue": {
+      "5": "#f5f8fe",
+      "10": "#eaf2fc",
+      "20": "#d6e4f9",
+      "60": "#84aeee",
+      "pressed": "#0b4174",
+      "hover": "#055aa9",
+      "default": "#3179e3"
+    },
+    "purple": {
+      "5": "#f9f6fe",
+      "10": "#f4eefd",
+      "20": "#e8ddfb",
+      "60": "#b998f2",
+      "pressed": "#461890",
+      "hovered": "#6434b3",
+      "default": "#8b53e9"
+    },
+    "brand": {
+      "dark grey": "#353535",
+      "smart red": "#c63031",
+      "grey 30": "#c3c3c3",
+      "white": "#ffffff"
     }
   },
   "font": {
-    "header 1": {
-      "fontSize": 40,
-      "textDecoration": "none",
-      "fontFamily": "Work Sans",
-      "fontWeight": 700,
-      "fontStyle": "normal",
-      "fontStretch": "normal",
-      "letterSpacing": -0.8,
-      "lineHeight": 48,
-      "paragraphIndent": 0,
-      "paragraphSpacing": 0,
-      "textCase": "none"
+    "header": {
+      "xxlarge": {
+        "fontSize": 22,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 30,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "xlarge": {
+        "fontSize": 20,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 28,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "large": {
+        "fontSize": 18,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 24,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "medium": {
+        "fontSize": 16,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 22.5,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "base": {
+        "fontSize": 14,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 20,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      }
     },
-    "header 2": {
-      "fontSize": 24,
-      "textDecoration": "none",
-      "fontFamily": "Work Sans",
-      "fontWeight": 700,
-      "fontStyle": "normal",
-      "fontStretch": "normal",
-      "letterSpacing": -0.48,
-      "lineHeight": 28.8,
-      "paragraphIndent": 0,
-      "paragraphSpacing": 0,
-      "textCase": "none"
+    "subtitle": {
+      "large": {
+        "fontSize": 18,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 500,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 22,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "medium": {
+        "fontSize": 16,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.5,
+        "lineHeight": 22,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "base": {
+        "fontSize": 14,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.5,
+        "lineHeight": 20,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "small": {
+        "fontSize": 12,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 500,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.75,
+        "lineHeight": 18,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      }
     },
     "body": {
-      "fontSize": 13,
-      "textDecoration": "none",
-      "fontFamily": "Work Sans",
-      "fontWeight": 400,
-      "fontStyle": "normal",
-      "fontStretch": "normal",
-      "letterSpacing": -0.26,
-      "lineHeight": 15.6,
-      "paragraphIndent": 0,
-      "paragraphSpacing": 0,
-      "textCase": "none"
+      "medium": {
+        "fontSize": 16,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 500,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.5,
+        "lineHeight": 22,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "base": {
+        "fontSize": 14,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 500,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.5,
+        "lineHeight": 22,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "small": {
+        "fontSize": 12,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.5,
+        "lineHeight": 18,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      }
+    },
+    "buttons": {
+      "medium": {
+        "fontSize": 16,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.75,
+        "lineHeight": 24,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "base": {
+        "fontSize": 14,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.75,
+        "lineHeight": 22,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "small": {
+        "fontSize": 12,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.75,
+        "lineHeight": 20,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      }
     }
   },
-  "collection 1": {
-    "headerbig": 40
-  },
   "typography": {
-    "header 1": {
-      "fontSize": 40,
-      "textDecoration": "none",
-      "fontFamily": "Work Sans",
-      "fontWeight": 700,
-      "fontStyle": "normal",
-      "fontStretch": "normal",
-      "letterSpacing": -0.8,
-      "lineHeight": 48,
-      "paragraphIndent": 0,
-      "paragraphSpacing": 0,
-      "textCase": "none"
+    "header": {
+      "xxlarge": {
+        "fontSize": 22,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 30,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "xlarge": {
+        "fontSize": 20,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 28,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "large": {
+        "fontSize": 18,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 24,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "medium": {
+        "fontSize": 16,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 22.5,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "base": {
+        "fontSize": 14,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 20,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      }
     },
-    "header 2": {
-      "fontSize": 24,
-      "textDecoration": "none",
-      "fontFamily": "Work Sans",
-      "fontWeight": 700,
-      "fontStyle": "normal",
-      "fontStretch": "normal",
-      "letterSpacing": -0.48,
-      "lineHeight": 28.8,
-      "paragraphIndent": 0,
-      "paragraphSpacing": 0,
-      "textCase": "none"
+    "subtitle": {
+      "large": {
+        "fontSize": 18,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 500,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 22,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "medium": {
+        "fontSize": 16,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.5,
+        "lineHeight": 22,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "base": {
+        "fontSize": 14,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.5,
+        "lineHeight": 20,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "small": {
+        "fontSize": 12,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 500,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.75,
+        "lineHeight": 18,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      }
     },
     "body": {
-      "fontSize": 13,
-      "textDecoration": "none",
-      "fontFamily": "Work Sans",
-      "fontWeight": 400,
-      "fontStyle": "normal",
-      "fontStretch": "normal",
-      "letterSpacing": -0.26,
-      "lineHeight": 15.6,
-      "paragraphIndent": 0,
-      "paragraphSpacing": 0,
-      "textCase": "none"
+      "medium": {
+        "fontSize": 16,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 500,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.5,
+        "lineHeight": 22,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "base": {
+        "fontSize": 14,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 500,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.5,
+        "lineHeight": 22,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "small": {
+        "fontSize": 12,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.5,
+        "lineHeight": 18,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      }
+    },
+    "buttons": {
+      "medium": {
+        "fontSize": 16,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.75,
+        "lineHeight": 24,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "base": {
+        "fontSize": 14,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.75,
+        "lineHeight": 22,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "small": {
+        "fontSize": 12,
+        "textDecoration": "none",
+        "fontFamily": "Manrope",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.75,
+        "lineHeight": 20,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      }
     }
   }
 }
