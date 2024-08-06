@@ -21,6 +21,6 @@ jobs:
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
           git add tokens.ts
-          git commit -m "auto update tokens"
+          git commit -m "Auto update tokens"
           git push origin main
-      - run: echo "123" > secret_file
+      - run: echo "Done"
